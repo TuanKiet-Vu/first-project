@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = " device-width, initial-scale=1" >
+      
+      <title>TO-DO list</title>
+
+      <link rel ="stylesheet" href = "css/style.css">
+      <link rel ="stylesheet" href = "css/reset.css">
+      <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+      <header>
+        <input type="text" placeholder="Enter a task." id = "input">
+        <button id="button">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </header>
+
+      <div class = "container">     
+            <!--todo list-->
+           <ul class = "todo" id = "todo"></ul>
+            <!--completed-->
+           <ul class = "todo" id = "completed"></ul>
+      </div>
+
+        <script src = "scrip.js"></script>
+    </body>
+</html>
