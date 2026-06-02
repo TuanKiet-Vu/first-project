@@ -1,0 +1,5 @@
+body { background: #eaf6ff; font-family: Arial, sans-serif; }
+header { display:flex; justify-content:center; gap:10px; padding:12px; }
+#input { flex:1; height:40px; padding:0 12px; }
+#button { height:40px; padding:0 14px; }
+
